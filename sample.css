@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(133, 201, 133);
+    font-family: 'Verdana', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    display: table;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.sidebar {
+    color: black;
+    position: absolute; 
+    top: 5px;
+    left: 10px;
+    background-color: darkgray;
+    padding: 10px;
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sideboxes {
+    background-color: darkgray;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none; 
+    color: inherit;
+    display: block;
+    background-color: darkgray;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
