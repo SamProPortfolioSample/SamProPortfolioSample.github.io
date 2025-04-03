@@ -17,6 +17,11 @@ p {
     text-align: center;
 }
 
+p.text {
+    font-size: 4px;
+    text-align: left;
+}
+
 .sidebar {
     color: black;
     position: absolute; 
@@ -45,3 +50,33 @@ a {
     margin-bottom: 5px;
     padding: 5px;
 }
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 850px; /* Reduced max-width for shorter text length */
+    word-wrap: break-word;
+}
+
+.notlink {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+}
+
+.experiences {
+    background-color: darkgray;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 850px;
+    text-align: left;
+    color: black;
+}
+
+
+
